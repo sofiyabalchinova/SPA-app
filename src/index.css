@@ -1,0 +1,168 @@
+body{
+    margin: 0 !important;
+     padding: 0 !important;
+}
+.preloader-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px auto;
+}
+
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.75rem;
+  margin: 50px;
+}
+
+.card { 
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+img
+{
+  max-width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+iframe {
+  width: 1000px;
+  height: 550px;
+}
+
+.recipe {
+  display: grid;
+  justify-content: center; 
+
+}
+
+video {
+  display: flex;
+  width: 600px;
+}
+
+
+.orange.darken-4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.row-contacts {
+  justify-content: space-between;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+
+
+}
+
+.col-lg-2 {
+  text-align: center;
+}
+
+
+.img-dilivery {
+  margin-bottom: 30px;
+}
+
+
+.first-txt-dilivery {
+  text-align: center;
+
+}
+
+
+.col-dil{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+}
+
+
+.row-diliv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+
+}
+
+.general-dilivery-title, .general-office-title, .general-office-adress
+{
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center; 
+  color: #333333;
+}
+
+.sec-txt-dilivery{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center; 
+  color: #000000;
+}
+
+
+.contacts {
+display: flex;
+margin: auto !important;
+flex-direction: column;
+justify-content: center; 
+ min-height: 70vh; 
+}
+.contacts-title {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  margin-top: 50px;
+  color: #333333;
+
+}
+
+.general-dilivery-title, .general-office-title{
+
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center; 
+  color: #333333;
+}
+
+.content{
+  min-height: calc(100vh - 70px - 64px);
+}
+.progress {
+  background-color: rgb(255, 167, 123) !important;
+}
+.indeterminate {
+  background-color: rgb(242, 69, 46) !important;
+}
