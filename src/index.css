@@ -166,3 +166,19 @@ justify-content: center;
 .indeterminate {
   background-color: rgb(242, 69, 46) !important;
 }
+.fullscreen-img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 !important;
+
+}
+
+.input-row{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
