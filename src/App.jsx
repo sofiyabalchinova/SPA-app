@@ -23,12 +23,13 @@ function NoMatch() {
 function App() {
   return (
     <React.Fragment>
-      <BrowserRouter>
+      <BrowserRouter basename = "/spa-app">
         <Header />
         <main className="container content">
           <Routes>
             <Route path="*" element={<NoMatch />}></Route>
             <Route path="/" element={<Home />} />
+            <Route path="/spa-app" element={<Home />} /> 
             <Route path="contact/" element={<Contact />} />
             <Route path="about/" element={<About />} />
             <Route path="category/:name" element={<Category />} />
